@@ -1,5 +1,563 @@
 [
     {
+        "sha": "fcdefa7e479541a92f02b1933f58439e0fd03a1f",
+        "description": "anv,iris: unbreak on BSDs after 812cf5f522ab,abf8aed68047",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0bd5f9a5bc92ad75675ea42e9163d5520075b5e2",
+        "description": "drm-uapi: Add sync_file.h",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8006feda09869a0feedd33714358821e81d1f762",
+        "description": "aco: don't allow SGPRs on logical phis",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0e47fe3fa216e5ce76b3e3a289c986539d7d34c6",
+        "description": "aco: reorder calls to aco_validate() and cleanup aco_compile_shader()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ec628aba76e3526d85938ec12870267c34806a1d",
+        "description": "panfrost: Implement ARB_depth_clamp",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fd92dc6b17b8e796928942a4dc96d1b9ad054358",
+        "description": "panfrost: Clean up panfrost_frag_meta_rasterizer_update",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bfe806c6ad7b43de5ce1e316124677c4e0ab96ea",
+        "description": "iris: Fix documentation for _iris_batch_flush",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6785d8c4601c6b8b1a5d8da8221313d1c332e7e5",
+        "description": "zink: expose GLSL 1.30",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9bf2f4d4113749c585a73bab186e39cc1d062a40",
+        "description": "zink: enable cull-distance if supported",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a3d07c4a35fde31fede3b39d4771d6023b65ecc1",
+        "description": "gallium/hud: don't use user vertex buffers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7b86920ae2e206ea2f3dc44e110483460cb2936b",
+        "description": "Revert \"gallium/hud: don't use user vertex buffers\"",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "4fe1fd4df40ac91b2783e3604fd81e6a6faf0cd2"
+    },
+    {
+        "sha": "167fa2887f0928042dcb21bbc2fa89ae9a29897d",
+        "description": "nir/validate: validate intr->num_components",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "be16833d9674ff3795b420a73b8ae2e1367bb0e2",
+        "description": "vc4: don't relay on intr->num_components for non-vectorized intrinsics",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c148dbe07e77f5146cf558afe03649a1146bf490",
+        "description": "v3d: don't use intr->num_components for non-vectorized intrinsics",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5b5b45ebf61605b970cf9b64e0937260b7219f3f",
+        "description": "spriv: don't set num_components for non-vectorised intrinsics",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2e5b5d9584fc85dd4e0ea3eb55f457bb269c4080",
+        "description": "nir/lower-atomics-to-ssbo: don't set num_components",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f70d6030e3c0fe3eda912994801330146168fdd4",
+        "description": "nir/builder: don't set intr->num_components",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "603d3c2991b97e54c41b19af9cf51b3559526d22",
+        "description": "radv: don't set num_components for non-vectorized intrinsics",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "28a14787c07b0046d2789bb6bd483f8ff2e4317c",
+        "description": "freedreno/ir3: don't rely on intr->num_components",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fce02f4020ae1a48ce02201df2895b9477ea22d2",
+        "description": "mesa/gles3: add support for GL_EXT_shader_group_vote",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "25a629558ca1265c1d8423e3c8203795738358b5",
+        "description": "gallivm/cache: don't require a null terminator for cache data.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "4962d3e107333a3de8efbed49f32a4ccb2861eec"
+    },
+    {
+        "sha": "8b6820c92d213087c3ed050fdd0e8bd5847a90e6",
+        "description": "panfrost: Simplify AFBC format check",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "27d3685528bc7ee79e94738af8f6bee1a4f8b795",
+        "description": "panfrost: Enable AFBC for RGB565",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92553b6290e36efd48b7e07f970d90f544a8bc15",
+        "description": "panfrost: Correctly calculate tiled stride",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "bde19c0e7ba575f3c8ca8ea76c916034264a8713"
+    },
+    {
+        "sha": "6b1498f7acaee3326559bdd3b3d46635e6ae60d6",
+        "description": "panfrost: Fix level_2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "65e0e891d242b3f5e115837f0dfb67779b10f880",
+        "description": "panfrost: Update sampler view in Bifrost path",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "fafc305600cb8d54ce18494e2b0d961d694b63c8"
+    },
+    {
+        "sha": "32b171d6698893febc95f9a596bfd059158fe92d",
+        "description": "panfrost: Merge bifrost_bo/midgard_bo",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "84779e5822d8b63038f65640ca32ad0dce3161b7",
+        "description": "llvmpipe/setup: add planes for draw regions if no scissor.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c1e1b13bfe8233748aa04f67fb69bff7e51bf744",
+        "description": "turnip: simplify stage2 helpers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "067370fe87d6015e973e2a6646ca83924757bda7",
+        "description": "turnip: remove duplicated stage2opcode and stage2shaderdb",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a02e7f679975bba76ee2a5c64b5b43432619b5a5",
+        "description": "aco: fix encoding of certain s_setreg_imm32_b32 instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "82c265a51467ec8c112146bc7a2875609d5be0cf",
+        "description": "aco: improve check for moving temporaries out of fixed definitions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e9578e303386c22940b62a88ea85cea794124537",
+        "description": "aco: allow GFX9 partial writes with instructions which use opsel",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "82de70d06e1b678aa2426ae647327ca2f418dc0e",
+        "description": "aco: add more opcodes to can_swap_operands",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3c1b55962e0da924bc96a16689c9421888891959",
+        "description": "aco: allow to swap operands for some 16-bit float instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "575b431c80170c2f3234e996947b363c4db5dcb9",
+        "description": "aco: validate sub-dword pseudo instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d16a7190a309ba87dc52760999dd3a6c033143ef",
+        "description": "aco: optimize 16-bit and 64-bit float comparisons",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "22d712273989701c91c50f98e27162aa2a1fb12f",
+        "description": "aco: copy-propagate constants through p_extract_vector/p_split_vector",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3d6f67950d91de1dd50b096de144e504a89ea21d",
+        "description": "aco: improve 8/16-bit constants",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4784111abc113ae64ce1d597407e0c32d6a88160",
+        "description": "aco: use 32-bit inline constants for 16-bit integer instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "dd233455679fe0f0ae441cc5ef3dd366132951e7",
+        "description": "aco: fix half_pi constant for 16-bit fsin/fcos",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9b69ed0bb9503befd73e7bfa4867dc431d01e2ee",
+        "description": "aco: improve sub-dword check for sgpr/constant propagation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1210e0bd6205c5f5365a29c91425dea3e49d89a7",
+        "description": "aco: create 16-bit input and output modifiers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f5a5674178f61089ff6d099dfad11b4852a50ad6",
+        "description": "aco: update comment about preserving fp16/fp64 denormals",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7f511efa16adb5e820c4535473de9bfb59f5e470",
+        "description": "aco: create 16-bit mad/fma",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1b10764e50998a556e000323c77d4a1632a80dfc",
+        "description": "aco: try to use fma instead of mad when denormals are enabled",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6cb42cdd8fddb990ee47124c18a510f4da6e99ac",
+        "description": "aco: create mads when signed zeros should be preserved",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1b6a319c15f3c63acb0384c47a94fb40f2aeb17d",
+        "description": "aco: add and set precise flag",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a8f800a836200f24607065fe172e51045baf9112",
+        "description": "aco: use p_as_uniform in emit_vop1_instruction",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b6d9e45f473edf4a3cfa86963b1849365f2297b1",
+        "description": "aco: improve code for f2{i,u}{8,16}",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34d481fd1f689805e0f41a8907bd00f96270fbfc",
+        "description": "aco: use num_opcodes instead of last_opcode",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e838acf37d055ba3734d720804b72eb1ecf02577",
+        "description": "nir: do not try to merge xfb-outputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b5c810d68b2c1b42209c24f8eff7c69c621995a0",
+        "description": "turnip: drop linking libfreedreno_drm",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a33faea8c514599e5b770a56e741103a9401d49",
+        "description": "freedreno/ir3: move the libdrm dependency out of shared code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "43e0062c5b3762ec6a07398d0872b174404ef0ab",
+        "description": "freedreno/ir3: unify shader create/delete paths",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "828c767113f557e2a6098342a3dfbfa3e393aa91",
+        "description": "zink: rework input/output location emission",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f90bc6daa973b3d762d87254bf4cbe2a71475fda",
+        "description": "zink: handle more glsl->spirv builtin translation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9b6a8d17424ac5fa11ccf44c02da2a237088cb76",
+        "description": "spirv: fix using OpSampledImage with OpUndef instead of OpType{Image,Sampler}",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "277b6169625f7c03c89add2857e565b9765c0c1f",
+        "description": "pan/mdg: Precolour blend inputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ad0015907005b2994b44759a7fa59a39a8572706",
+        "description": "nvir: don't use designated initialisers in C++ code",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "fa0a241b33552eca907e3c34f010ff67ffd247cd"
+    },
+    {
+        "sha": "013d096d15bef44594475812a0e5b12b729939bc",
+        "description": "ac: add ac_choose_spi_color_formats() to common code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1d9e6e456ad60f4c995c24c5cde6d73943141e6c",
+        "description": "freedreno/ir3: fix ir3_nir_move_varying_inputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "356be07ce279e6ff2d468fd1321a2edb2d6b2df2",
         "description": "intel/tools: make test aware of the meson test wrapper",
         "nominated": false,
