@@ -1,5 +1,248 @@
 [
     {
+        "sha": "63b81c9915ce438e73e14412cbf3a9154b415f35",
+        "description": "meson: unbreak sysctl.h detection on BSDs",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2a80f96b51134c74f2836493f97ee48239382799",
+        "description": "docs: Add dri-devel to the mailing lists and drop the DRI wiki link.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "46c368907fcf333a19881d28c46e997845d00faf",
+        "description": "util: enable futex usage on BSDs after 7dc2f4788288",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "680ca5b393827bde8b3a8f7dc1893d0f646494ef",
+        "description": "freedreno/ir3: add post-scheduler cp pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a60d48a863d8e9d459562b874c463cd798f47a87",
+        "description": "freedreno/ir3/cp: extract valid_flags",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5f1f8f7b172166c95b51473e3af3d72777c21dfc",
+        "description": "freedreno/ir3: delay test support for vectorish instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "92d6eb4dd539f48355ebfe5408f6a18c5a4c3efd",
+        "description": "freedreno/ir3: add helpers to move instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9eed0c601137a6657d6c0de4c2362549456f9465",
+        "description": "freedreno/ir3/delay: calculate delay properly for (rptN)'d instructions",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c3b30963dd7fbca6bbc849f9f89bc0dec4b3fc1e",
+        "description": "freedreno/ir3: add test for delay slot calculation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a69d28769a01c78895ebfe3a5d3213db9644c2f7",
+        "description": "freedreno/ir3/print: print (r) flag",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cd376a143461a4ed16ebd58de046f89da4113ff7",
+        "description": "freedreno/ir3/legalize: don't allow (nopN) if (rptN)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1418ea0d0015d6bf8a5256668f4485ae22ffbc0a",
+        "description": "freedreno/a6xx: emit shader names in debug builds",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "541c288b5f8b8b579a00460b7343784ae9cdbde9",
+        "description": "freedreno: splitup emit_string_marker",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f35f711c71f30e226a9151a3cbce1bd70546a5fe",
+        "description": "freedreno/ir3/cp: properly handle already-folded RELATIV",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1bee79996b215be271b6dd76d145e3c5bb55af3f",
+        "description": "freedreno/ir3/validate: also check instr->address",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f598786775f0490333c69065bd42a81d9e71d878",
+        "description": "freedreno/sched: reset delay counters at start of block",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6717fd57192f84495a18523623d5f903fb09da3c",
+        "description": "freedreno/log-parser: fix compute times",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8ea5d8ce834142b455db4248987eac5649644fc7",
+        "description": "docs: Replace ancient swrast conformance docs with more current information.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "429ff054917910190831ab554f6c7a25eeeaf069",
+        "description": "docs/relnotes: update internal references",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9be0e2dbf4f6494efb6b42078638e869255e7dd2",
+        "description": "docs: update internal references",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "762706c5a6b981c3957e2409f1c81ee5be374604",
+        "description": "anv: add an option to disable secondary command buffer calls",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "20b6ee82acc49b34a34bae2e6d9915a7d53ab456",
+        "description": "nir/intrinsics: Put the _intel intrinsics together at the end",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2ac2f7a02983fefc222cd60f06eb7ba176b8140d",
+        "description": "softpipe: change vendor name to something more generic.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "04d6edd725347aec0ef7a51162c7b3c382a31193",
+        "description": "llvmpipe: change vendor to be more generic.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "94acd419dad9075d288bb41a480d38e173587df0",
+        "description": "virgl: change vendor id to reflect reality more.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8f9b8af78250fe7644622580c53559caa81d155e",
+        "description": "anv: Add anv_pipeline_init/finish helpers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1b693341ac9c0e07b794307180a105d357d09e61",
+        "description": "anv: Add an anv_batch_set_storage helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "fcdefa7e479541a92f02b1933f58439e0fd03a1f",
         "description": "anv,iris: unbreak on BSDs after 812cf5f522ab,abf8aed68047",
         "nominated": false,
