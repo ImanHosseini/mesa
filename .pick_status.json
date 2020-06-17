@@ -1,5 +1,320 @@
 [
     {
+        "sha": "51fb3b09dc1cd096f727f712c18a023c3886f660",
+        "description": "radv/aco: enable FP16 features/extensions on GFX9+",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "abfe28a6bb637237b3a6873eda8b09cfe4faf1e2",
+        "description": "aco: fix validation of opsel when set for the definition",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f745ceecee6058f488d0ac44a5f2d97b8798e00d",
+        "description": "turnip: use draw states for input attachments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "159a1300ceb5752dda116b07a560e351c0324886",
+        "description": "turnip: input attachment descriptor set rework",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "233610f8cf8d8810173a7eac0c046574aeb485f9",
+        "description": "turnip: refactor draw states and dynamic states",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "62a4db4c0f15905d6988d4024e0dc93c095e0378",
+        "description": "turnip: delete dead dynamic state code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aab3398b33779be8b7e4f70edf039fcf5ebd06e4",
+        "description": "turnip: improve dirty bit handling a bit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "edb8c581db42798cf5c3fca48739c8dccfba6ef8",
+        "description": "turnip: move descriptor set BO tracking to CmdBindDescriptorSets",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5ef0f9f62254ba4c6778cc238f43e2437833ad00",
+        "description": "turnip: compute and graphics have completely separate state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a3464c567cc112bdaca3354dd4bfb883299eab84",
+        "description": "tu: Actually remove dead variables after io lowering",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "168c42290f91dd172fb370f476d384188dbf9ca4",
+        "description": "ir3: Don't calculate num_samp ourselves",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "568e06b3a6f08be93ec2b94c5f2a81420b664c40",
+        "description": "tu: Set num_components to 0 when building bindless intrinsics",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "167fa2887f0928042dcb21bbc2fa89ae9a29897d"
+    },
+    {
+        "sha": "6fcbce3b9960a6066cf198d5d2fc25a7e4cf0e7b",
+        "description": "tu: Remove tu_shader_compile_options",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "808992fc506b02908468b64082981ddb4e58f713",
+        "description": "tu: Use the ir3 shader API",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b1700698a58dcdca8ba0fe738514a8b23b0e8572",
+        "description": "tu: Remove num_samp hack",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6f2981176d96984288e1df57b84140096057eadb",
+        "description": "ir3: Pass reserved_user_consts to ir3_shader_from_nir()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "89c8393a1632720ed0dec82cb9529c5c487fb86d",
+        "description": "pan/mdg: Reassociate adds for multiply-by-two",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a3348f88c8716c1dcc1f0fafb09004693d9f0786",
+        "description": "pan/mdg: Canonicalize (x * 2.0) to (x + x)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6318e461416feacd352b611fd28e698dd654c6a4",
+        "description": "pan/mdg: Allow scheduling \"x + x\" to multipliers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bc356abea31b4727dd1363d9a3a2017135b05bd0",
+        "description": "pan/mdg: Factor out unit check",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "de7c6950b36bb1574c3b683b0f53d9bc15fe22d0",
+        "description": "aco: fix sub-dword opsel/sdwa checks",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1e791e51a65c3cf2b7f511c3bf12f9625428f701",
+        "description": "aco: fix validation error from vgpr spill/restore code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d37deebde57138c00f244f2bba2f82b4a0a7d958",
+        "description": "turnip: fix cubic filtering with CmdBlitImage",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "198b13974a203f47a93c3bc7dfc355409b9706f2",
+        "description": "turnip: fix 3D path always being used for CmdBlitImage",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "72d7df40a5e5b50330c4d4168aa681bae2b61b22"
+    },
+    {
+        "sha": "1622787ee4de8785d042e16ce91f027870f87830",
+        "description": "turnip: set VFD_INDEX_OFFSET in 3D clear/blit path",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4d13e35315ed7ae166d221e87d5dce26ed1e9b92",
+        "description": "spirv: do not set num_components for non-vectorized mbcnt_amd intrinsic",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "167fa2887f0928042dcb21bbc2fa89ae9a29897d"
+    },
+    {
+        "sha": "b2e9d21fdd679fba80c358ed7871c30987d10e05",
+        "description": "st_glsl_to_nir: fix potential use after free",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "36be8c2fcf94f5d800aed6c3d39ef23b226fd0d5"
+    },
+    {
+        "sha": "7e8e02d54324623cc7a34efe23e20f0a77a3d2f0",
+        "description": "glsl: small optimisation fix for uniform array resizing",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a5d3e061af9451758479f97df97afd6351e7d117",
+        "description": "glsl: fix uniform array resizing in the nir linker",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "a34cc97ca3e19fb36045bf361b3a6bd865f71c7b"
+    },
+    {
+        "sha": "f63a5781008b3d3c983be43135e1d9d43cd6a3da",
+        "description": "anv: Add VK_EXT_custom_border_color to relnotes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ed7bebc17b4bc106eb8fba370607a50c2a367485",
+        "description": "anv: enable VK_EXT_pipeline_creation_cache_control",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "23633f6c694cde75e9347d7a18e79c08413bc022",
+        "description": "anv: implement VK_PIPELINE_CREATE_FAIL_ON_PIPELINE_COMPILE_REQUIRED_BIT_EXT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "13f44596d72d1d0e0651e6ccd71831dcc2b8a3e5",
+        "description": "anv: support externally synchronized pipeline caches",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a0ef4971d09ce23c0875c94468d20acd186e5be2",
+        "description": "intel/compiler: Remove unnecessary optimization for MUL",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d4f3f9390f07791e8c44e05386d1005d2bdb979f",
+        "description": "intel/compiler: Optimize integer add with 0 into mov",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "63b81c9915ce438e73e14412cbf3a9154b415f35",
         "description": "meson: unbreak sysctl.h detection on BSDs",
         "nominated": true,
